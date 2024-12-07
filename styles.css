@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Texto blanco para destacar en el fondo negro */
+    background-color: #000; /* Fondo negro */
+}
+
+header {
+    background: linear-gradient(90deg, #ff00ff, #10d3d3); /* Efecto degradado neón */
+    color: #fff;
+    padding: 10px 20px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7); /* Texto brillante */
+    border-bottom: 2px solid #ff00ff;
+}
+
+header h1 {
+    display: inline;
+    font-size: 24px;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff; /* Efecto neón */
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #080808;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #00ffff; /* Borde neón */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px #00ffff; /* Resplandor inicial */
+}
+
+nav ul li a:hover {
+    background-color: #00ffff; /* Fondo neón al pasar el ratón */
+    color: #000;
+    text-shadow: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.proyecto {
+    border: 1px solid #00ff00;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    box-shadow: 0 0 15px hsl(120, 100%, 50%); /* Resplandor verde neón */
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+}
+
+.proyecto:hover {
+    transform: scale(1.05); /* Crece al pasar el ratón */
+    box-shadow: 0 0 25px #00ff00, 0 0 50px #00ff00; /* Brilla más al pasar el ratón */
+}
+
+footer {
+    background: #111; /* Negro más claro para destacar del fondo */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    box-shadow: 0 0 15px #ff00ff; /* Resplandor en el pie de página */
+    border-top: 2px solid #ff00ff;
+}
